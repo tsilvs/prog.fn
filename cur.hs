@@ -1,4 +1,6 @@
-let sum a b = a + b
-putStrLn $ show (sum 1 2) -- will print '3'
-let pls2 = sum 2
-putStrLn $ show (pls2 1) -- will print '3'
+add :: Int -> Int -> Int
+add a b = a + b
+inc = add 1
+main = do
+  putStrLn $ show (add 1 2) -- will print '3'
+  putStrLn $ show (inc 2) -- will print '3'

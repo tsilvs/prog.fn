@@ -1,0 +1,8 @@
+.ignore/*
+*.ignore*
+.tmp/*
+*.tmp*
+.temp/*
+*.temp*
+.cache/*
+*.cache*
